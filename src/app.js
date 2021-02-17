@@ -4,7 +4,6 @@ const hbs = require("hbs");
 const geocode = require("./utils/geocode");
 const forecast = require("./utils/forecast");
 
-console.log(333);
 const app = express();
 const public = path.join(__dirname, "../public");
 const viewsPath = path.join(__dirname, "../templates/views");
